@@ -10,3 +10,9 @@ if numero2 != 0:
     divisao = numero1 / numero2
 else:
     divisao = "Indefinida (divisão por zero)"
+
+# Bloco 3 - Saída de dados
+print("A soma é:", soma)
+print("A divisão é:", divisao)
+
+
