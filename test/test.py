@@ -1,5 +1,5 @@
 
-from src.Main import calcular_soma, calcular_divisao, calcular_subtracao
+from src.Main import calcular_soma, calcular_divisao, calcular_subtracao, e_par
 
 def test_calcular_soma():
     assert calcular_soma(3, 5) == 8
@@ -13,4 +13,8 @@ def test_calcular_divisao():
 def test_calcular_subtracao():
     assert calcular_subtracao(10, 5) == 5
     assert calcular_subtracao(5, 10) == -5
+
+def test_e_par():
+    assert e_par(4) is True
+    assert e_par(5) is False
    
