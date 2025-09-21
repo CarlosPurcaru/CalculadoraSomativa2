@@ -9,10 +9,8 @@ def calcular_divisao(numero1: int, numero2: int):
     return "Indefinida (divisão por zero)"
 
 def calcular_subtracao(numero1: int, numero2: int) -> int:
-    """Retorna a subtração de dois números."""
     return numero1 - numero2
-
-
+  
 # Bloco 1
 def executar():
     numero1 = int(input("(alterado)Digite o primeiro número: "))
@@ -27,6 +25,7 @@ def executar():
     print("A soma é:", soma)
     print("A divisão é:", divisao)
     print("A subtração é:", subtracao)
+
 
 if __name__ == "_main_":
     executar()
