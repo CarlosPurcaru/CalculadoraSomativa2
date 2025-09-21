@@ -9,7 +9,6 @@ def calcular_divisao(numero1: int, numero2: int):
     return "Indefinida (divisão por zero)"
 
 def calcular_subtracao(numero1: int, numero2: int) -> int:
-    """Retorna a subtração de dois números."""
     return numero1 - numero2
 
 
