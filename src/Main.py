@@ -10,7 +10,10 @@ def calcular_divisao(numero1: int, numero2: int):
 
 def calcular_subtracao(numero1: int, numero2: int) -> int:
     return numero1 - numero2
-  
+
+def e_par(numero: int) -> bool:
+    return numero % 2 == 0
+
 # Bloco 1
 def executar():
     numero1 = int(input("(alterado)Digite o primeiro número: "))
