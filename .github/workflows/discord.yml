@@ -1,3 +1,4 @@
+
 #Atualizado link integração 2
 name: Discord
 on:
@@ -14,3 +15,4 @@ jobs:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           template: "avatar-with-link"
           include-extras: true
+
