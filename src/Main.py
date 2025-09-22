@@ -1,4 +1,4 @@
-#Criação da Main
+#Cálculos
 
 def calcular_soma(numero1: int, numero2: int) -> int:
     return numero1 + numero2
@@ -19,8 +19,8 @@ def calcular_potencia(base: int, expoente: int):
 
 # Bloco 1
 def executar():
-    numero1 = int(input("(alterado)Digite o primeiro número: "))
-    numero2 = int(input("(alterado)Digite o segundo número: "))
+    numero1 = int(input("(alterado2)Digite o primeiro número: "))
+    numero2 = int(input("(alterado2)Digite o segundo número: "))
 
 # Bloco 2
     soma = calcular_soma(numero1, numero2)
@@ -28,7 +28,7 @@ def executar():
     subtracao = calcular_subtracao(numero1, numero2)
     potencia = calcular_potencia(numero1, numero2)
 
-    # Bloco 3
+# Bloco 3
     print("A soma é:", soma)
     print("A divisão é:", divisao)
     print("A subtração é:", subtracao)
