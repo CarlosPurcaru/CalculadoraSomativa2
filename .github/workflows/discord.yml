@@ -1,17 +1,11 @@
-name: Discord
-on:
-  -push
-
-jobs:
   discord:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Run Discord Webhook
-      uses: Sniddl/discord-commits@v1.6
+      uses: johnnyhuy/actions-discord-git-webhook@main
       with:
-        webhook: ${{ secrets.DISCORD_WEBHOOK }}
-        template: "avatar-with-link"
-        include-extras: true
+        webhook url: ${{ secrets.DISCORD_WEBHOOK }}
+
 
       
